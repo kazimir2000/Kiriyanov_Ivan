@@ -69,26 +69,6 @@ public class Main {
                 "(CORWILL, ALFRED)(CORWILL, FRED)(CORWILL, RAPHAEL)(CORWILL, WILFRED)(TORNBULL, BARNEY)(TORNBULL, BETTY)(TORNBULL, BJON)");
         System.out.println("Output:");
         System.out.println(five.meeting(s));
-
-        // First extra task
-        ExtraTask1 first = new ExtraTask1();
-        System.out.println("\n\nFirst extra task:");
-        System.out.println("Expected output:");
-        System.out.println("513 => 531 \n2017 => 2071 \n111 => -1 \n531 => -1");
-        System.out.println("Output:");
-        System.out.printf("513 => %d\n", first.findNext(513));
-        System.out.printf("2017 => %d\n", first.findNext(2017));
-        System.out.printf("111 => %d\n", first.findNext(111));
-        System.out.printf("531 => %d\n", first.findNext(531));
-
-        // Second extra task
-        ExtraTask2 second = new ExtraTask2();
-        System.out.println("\n\nSecond extra task:");
-        System.out.println("Expected output:");
-        System.out.println("2149583361 => 128.32.10.1 \n32 => 0.0.0.32 \n0 => 0.0.0.0");
-        System.out.println("Output:");
-        System.out.printf("2149583361 => %s\n", second.longToIP(2149583361L));
-        System.out.printf("32 => %s\n", second.longToIP(32));
-        System.out.printf("0 => %s\n", second.longToIP(0));
+     
     }
 }
